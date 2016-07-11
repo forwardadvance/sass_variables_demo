@@ -1,10 +1,22 @@
+// Colours
+$red: #f00;
+$blue: #00f;
+
+$body_colour: $blue;
+
+// Sizes
+$gutter: 10px;
+
 body {
-  color:red;
-  font-size:200%;
+  color:$body_colour;
+  font-size:300%;
+  padding: $gutter;
 }
 
 header {
   border: 1px solid grey;
+  margin: $gutter;
+  padding: $gutter;
 }
 
 footer {
